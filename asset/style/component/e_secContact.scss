@@ -1,0 +1,22 @@
+.formulaire {
+    background-color: $main-color;
+    height: 400px;
+    margin-top: 200px;
+    
+}
+.form {
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 50px;
+}
+.btn {
+    background-color: $secondary-color;
+    width: 250px;
+    color: white;
+}
+.contact {
+    color: $main-color;
+    span {
+        color: $secondary-color;
+    }
+}

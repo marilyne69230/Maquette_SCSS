@@ -1,0 +1,19 @@
+h1 {
+    span {
+        color: $secondary-color;
+    }
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.paragraphe {
+    background-color: $main-color;
+    p {
+        width: 60%;
+    }
+}
+.entreprise {
+    position: absolute;
+    margin-top: -420px;
+    margin-left: 950px;
+}
