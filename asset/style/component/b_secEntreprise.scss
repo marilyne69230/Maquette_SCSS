@@ -2,18 +2,32 @@ h1 {
     span {
         color: $secondary-color;
     }
-
     margin-top: 100px;
     margin-bottom: 50px;
+    @include media-breakpoint-down(sm) {
+        margin-top: 50px;
+        margin-bottom: 20px;
+     }
 }
 .paragraphe {
     background-color: $main-color;
     p {
         width: 60%;
+        @include media-breakpoint-down(sm) {
+            width : 100%;
+            padding: 5%;
+         }
     }
 }
 .entreprise {
     position: absolute;
     margin-top: -420px;
     margin-left: 1135px;
+    @include media-breakpoint-down(sm) {
+        position: relative;
+        height: 100px;
+     }
+}
+.logo {
+    object-fit: cover;
 }

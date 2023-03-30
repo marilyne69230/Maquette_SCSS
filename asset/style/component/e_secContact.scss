@@ -3,7 +3,7 @@
     background-color: $main-color;
     height: 400px;
     margin-top: -480px;
-    }
+    }   
     .btn {
     background-color: $secondary-color;
     color: white;
@@ -14,4 +14,27 @@
             color: $secondary-color;
         }
     }
+}
+
+.login-form {
+    width: 800px;
+
+    @include media-breakpoint-down(lg) {
+        width: 600px;
+     }
+
+     @include media-breakpoint-down(md) {
+        width: 500px;
+     }
+
+     .contact{
+
+        @include media-breakpoint-down(lg) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+         }
+ 
+     }
 }

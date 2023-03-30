@@ -5,4 +5,20 @@ header {
     .reseaux {
         color: $secondary-color;
     }
+
+    @include media-breakpoint-down(sm) {
+        width : 50%
+     }
+
+     .item-navbar{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .nav-link{
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+     }
 }
+

@@ -1,5 +1,7 @@
 .navFonce {
     margin-top: 200px;
     background-color: $main-color;
-    color: white;
+    .nav-item a {
+        color: white;
+    }
 }

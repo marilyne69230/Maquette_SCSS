@@ -8,4 +8,11 @@
 @import "component/c_secService.scss";
 @import "component/d_secRealisation.scss";
 @import "component/e_secContact.scss";
-@import "component/f_secFooter.scss"
+@import "component/f_secFooter.scss";
+
+.carousel-inner{
+    img {
+        height: 500px;
+        object-fit:cover;
+    }
+}
